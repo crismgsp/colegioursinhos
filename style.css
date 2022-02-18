@@ -3,11 +3,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-	background-color: #d997df;
+	background-color: #97b0df;
 }
 
 header{
-	background: #d997df;
+	background: #97b0df;
 	padding: 20px 0;
 }
 
@@ -158,7 +158,7 @@ td, th {
 
 .principal {
 	padding: 3em 0;
-	background: #81e47d;
+	background: #97bdc7;
 	width: 940px;
 	margin: 0 auto;
 	text-align: center;
@@ -196,7 +196,7 @@ td, th {
 
 .mapa {
     padding: 3em 0;
-	background:  #81e47d;
+	background:  #97bdc7;
 	width: 940px;
 	margin: 0 auto;
 }
@@ -241,7 +241,7 @@ td, th {
 
 .beneficios {
 	padding: 3em 0;
-	background: #81e47d;
+	background: #97bdc7;
 	width: 940px;
 	margin: 0 auto;
 }
