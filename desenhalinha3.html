@@ -47,6 +47,8 @@ Escolha uma cor <input type="color">
     }
 
     tela.onmousemove = desenhaCirculo;
+	
+    tela.touchstart = desenhaCirculo;
 
     function habilitaDesenhar() {
 
@@ -61,6 +63,10 @@ Escolha uma cor <input type="color">
     tela.onmousedown = habilitaDesenhar;
 
     tela.onmouseup = desabilitaDesenhar;
+	
+    tela.touchmove = habilitaDesenhar;
+
+    tela.touchend = desabilitaDesenhar;
 	
 	function desenhaTexto(x , y, texto) {
         var tela = document.querySelector('canvas');
