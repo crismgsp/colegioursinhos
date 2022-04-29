@@ -3,6 +3,10 @@ site ficticio para treinar o que aprendi no curso de formação iniciante em pro
 
 link pra acesso: https://crismgsp.github.io/colegioursinhos/ <br>
 
+Fiz este pedaço só pra aplicar o conhecimento que adquiri no curso de lógica em programação, usei javascript e o elemento <canvas>
+para permitir fazer desenhos <br>
+https://crismgsp.github.io/colegioursinhos/desenhalinha3.html <br>
+
 
 
 
