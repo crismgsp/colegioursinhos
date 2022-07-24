@@ -19,8 +19,4 @@ da escola ficticia.
 
 Foi utilizado conhecimento em html, css e em javascript(este somente no arquivo desenhalinha3.html). 
 
-Pretendo melhorar este site aos poucos, quero tentar colocar a opção de desenhar com o dedo também na tela
-do celular na parte de desenho (já tentei uma vez mas ainda não funcionou) só está funcionando com o mouse. 
-A parte de responsividade não tenho muito conhecimento ainda, à medida em que obtiver mais conhecimento tentarei 
-adaptar melhor para dispositivos diversos, de qualquer manteira testei para ver como se comporta em dispositivos diversos.
 
