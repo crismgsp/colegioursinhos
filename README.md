@@ -1,5 +1,8 @@
 # colegioursinhos
-site ficticio para treinar o que aprendi no curso de formação iniciante em programação, mais na parte de HTML e CSS. <br>
+Site ficticio para treinar o que aprendi no curso de formação iniciante em programação, mais na parte de HTML e CSS.
+Fiz ele quando tava começando a aprender sobre programação... ao longo do aprendizado resolvi focar mais em back-end...mas vou deixar ele 
+por aqui mesmo, por enquanto.
+<br>
 
 link pra acesso: https://crismgsp.github.io/colegioursinhos/ <br>
 
