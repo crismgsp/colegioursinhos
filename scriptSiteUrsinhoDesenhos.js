@@ -4,8 +4,8 @@ var tela = document.querySelector('canvas');
 	
 
     pincel.fillStyle = 'lightgrey';
-    pincel.fillRect(100, 100, 900, 700);
-    
+    //pincel.fillRect(100, 100, 900, 700);
+    pincel.fillRect(0, 0, tela.width, tela.height);
 	
 
     var desenha = false;
@@ -30,8 +30,13 @@ var tela = document.querySelector('canvas');
         }		
 
         if(desenha) {
-            var x = evento.pageX - tela.offsetLeft;
-            var y = evento.pageY - tela.offsetTop;
+			//alterando para o novo layout
+           // var x = evento.pageX - tela.offsetLeft;
+           // var y = evento.pageY - tela.offsetTop;
+			const rect = tela.getBoundingClientRect();
+
+			var x = evento.clientX - rect.left;
+			var y = evento.clientY - rect.top;
             					
 			pincel.fillStyle = paleta.value;   // atenção a este pedaco..estava colocando so paleta e nao funcionava
             pincel.beginPath();
@@ -59,7 +64,27 @@ var tela = document.querySelector('canvas');
 
     tela.onmouseup = desabilitaDesenhar;
 	
-    tela.touchmove = habilitaDesenhar;
+    //tela.touchmove = habilitaDesenhar;  //testando nova forma de deenhar celular abaixo
+    tela.addEventListener("touchmove", function(evento){
+	
+	    evento.preventDefault();
+	
+	    const toque = evento.touches[0];
+	
+	    const rect = tela.getBoundingClientRect();
+	
+	    var x = toque.clientX - rect.left;
+	    var y = toque.clientY - rect.top;
+	
+	    pincel.fillStyle = paleta.value;
+	
+	    pincel.beginPath();
+	
+	    pincel.arc(x, y, raio, 0, 2 * Math.PI);
+	
+	    pincel.fill();
+	
+	});
 
     tela.touchend = desabilitaDesenhar;
 	
