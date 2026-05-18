@@ -1,3 +1,5 @@
+console.log("acessando linha 1 do script");
+
 var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
 	var paleta = document.querySelector('input'); 
@@ -111,4 +113,6 @@ botaoLimpar.onclick = function(){
     pincel.clearRect(0, 0, tela.width, tela.height);
 
 }
+
+console.log("acessando linha 117 do script");
 
