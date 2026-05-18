@@ -155,73 +155,7 @@ nav a:hover{
 	width:150px;
 	height: 150px;
 }
-/*
-.contato {
-	width: 20% !important; 
-    margin: auto;
-	color:#fefffb;
-	padding: 20px;
-	
-} 
 
-.produtos {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-
-.produtos li {
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
-}
-
-.produtos li:hover {
-	border-color: #C78C19;
-}
-
-.produtos li:active {
-	border-color: #088C19;
-}
-
-.produtos li:hover h2 {
-	font-size: 40px;
-}
-
-.produtos h2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.produto-descricao {
-	font-size: 18px;
-}
-
-.produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
-}
-
-.tabela {
-	width: 20% !important; /*manter o importante ...quanto menor % mais centralizado fica */
-    margin: auto;
-}
-
-
-.paint {
-	width: 20% !important; /*manter o importante ...quanto menor % mais centralizado fica */
-    margin: auto;
-	color: rgb(218, 54, 54);
-	text-decoration:double;
-	font-weight: bold;
-} css comentado... ver como vai ficar... depois tirar se nao fizer falta */
 
 /* novo css */
 .contato{
@@ -229,8 +163,7 @@ nav a:hover{
     max-width:900px;
 
     margin:40px auto;
-
-    background:white;
+ 
 
     padding:40px;
 
