@@ -39,14 +39,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #3FE075;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #E0A83A;
 	text-decoration: underline;
 }
 
@@ -157,7 +157,7 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
-	color: #EDED95;
+	color: #E0A83A;
 	font-weight: 600;
 	
 }
