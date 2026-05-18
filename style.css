@@ -349,6 +349,20 @@ td, th {
 }
 
 
+@media(max-width:768px){
+
+    .caixa{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+}
+
 @media(max-width: 900px){
 
     .hero{
