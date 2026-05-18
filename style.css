@@ -115,7 +115,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	
+	background: #7C83D9;
 	padding: 40px;
 }
 
@@ -152,7 +152,9 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
-	text-shadow: 2px 2px #fff9c1;
+	color: #EDED95;
+	font-weight: 600;
+	
 }
 	
 
