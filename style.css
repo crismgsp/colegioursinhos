@@ -7,13 +7,13 @@ body {
 }
 
 header{
-	background: #97b0df;
-	padding: 20px 0;
+	background: #7C83D9;
+	padding: 10px 0;
 }
 
 .caixa {
 	position: relative;
-	width:940px;
+	width: 90vw;
 	margin: 0 auto;
 }
 
