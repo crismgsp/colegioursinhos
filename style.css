@@ -18,6 +18,69 @@ header{
     padding: 15px 5%;
 }
 
+.hero{
+    width: 90vw;
+    margin: 40px auto;
+    padding: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    background: linear-gradient(135deg, #7C83D9, #7CD9B5);
+    border-radius: 30px;
+
+    overflow: hidden;
+}
+
+.hero-texto{
+    flex: 1;
+    color: white;
+}
+
+.hero-texto h2{
+    font-size: 52px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.hero-texto p{
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.btn-hero{
+    display: inline-block;
+    background: #FFE082;
+    color: #333;
+    padding: 14px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+    transition: all .3s ease;
+}
+
+.btn-hero:hover{
+    transform: translateY(-3px);
+    background: #FFD54F;
+}
+
+.hero img{
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
 .caixa{
     display:flex;
     justify-content:space-between;
@@ -285,22 +348,30 @@ td, th {
 	}
 }
 
-@keyframes pulseSuave {
-    0% {
-        transform: scale(1);
-        opacity: 1;
+
+@media(max-width: 900px){
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
     }
 
-    50% {
-        transform: scale(1.08);
-        opacity: 0.85;
+    .hero-texto h2{
+        font-size: 36px;
     }
 
-    100% {
-        transform: scale(1);
-        opacity: 1;
+    .hero-texto p{
+        font-size: 18px;
+        max-width: 100%;
     }
+
+    .hero img{
+        max-width: 100%;
+    }
+
 }
+
 
 
 
