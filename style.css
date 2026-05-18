@@ -6,6 +6,10 @@ body {
 	background-color: #97b0df;
 }
 
+main {
+   padding: 20px;
+}	
+
 header{
 	background: #7C83D9;
 	padding: 10px 0;
@@ -51,6 +55,7 @@ nav a:hover {
 	width: 20% !important; /*manter o importante ...quanto menor % mais centralizado fica */
     margin: auto;
 	color:#fefffb;
+	padding: 20px;
 	
 } 
 
