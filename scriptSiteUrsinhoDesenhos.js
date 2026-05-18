@@ -76,3 +76,14 @@ var tela = document.querySelector('canvas');
 	desenhaTexto( 40, 30, 'Para desenhar arraste o mouse enquanto segura o botão esquerdo');	
     desenhaTexto( 40, 50, 'Para aumentar espessura aperta shift');
 	desenhaTexto( 40, 70, 'Para reduzir espessura aperta alt');
+
+//acrescentando funcao de apagar desenho
+
+const botaoLimpar = document.querySelector("#limpar");
+
+botaoLimpar.onclick = function(){
+
+    pincel.clearRect(0, 0, tela.width, tela.height);
+
+}
+
