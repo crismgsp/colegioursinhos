@@ -15,6 +15,17 @@ header{
 	padding: 10px 0;
 }
 
+#avisoAlteracao {
+
+    color: #FC0FC0 !important;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+    animation: pulseSuave 2.5s infinite;
+    font-size: 18px !important;
+	
+}
 .caixa {
 	position: relative;
 	width: 90vw;
