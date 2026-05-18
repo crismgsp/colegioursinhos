@@ -16,6 +16,7 @@ novo css */
 header{
     background: #7C83D9;
     padding: 15px 5%;
+	width: 100%;
 }
 
 .hero{
@@ -330,6 +331,7 @@ footer {
 	text-align: center;
 	background: #7C83D9;
 	padding: 40px;
+	width: 100%;
 }
 
 .copyright {
