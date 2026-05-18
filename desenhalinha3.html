@@ -1,9 +1,211 @@
-<canvas width="800" height="600"></canvas>
+<!-- <canvas width="800" height="600"></canvas>
 <br>
 Escolha uma cor <input type="color">
 
 <script src="scriptSiteUrsinhoDesenhos.js"></script>
 
 
-	<p class="copyright">&copy; Copyright crismgsp 2022</p>
+	<p class="copyright">&copy; Copyright crismgsp 2022</p> -->
+<style>
+body{
+    margin:0;
+    font-family:'Nunito', sans-serif;
+
+    background:
+    linear-gradient(135deg,#7C83D9,#7CD9B5);
+
+    min-height:100vh;
+}
+
+
+/* ÁREA PRINCIPAL */
+
+.desenho-area{
+
+    width:90vw;
+    max-width:1100px;
+
+    margin:40px auto;
+
+    background:white;
+
+    border-radius:35px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.15);
+}
+
+
+/* TÍTULO */
+
+.desenho-area h1{
+
+    font-size:42px;
+
+    color:#6C63FF;
+
+    margin-bottom:10px;
+}
+
+.desenho-area p{
+
+    font-size:20px;
+
+    color:#666;
+
+    margin-bottom:30px;
+}
+
+
+/* FERRAMENTAS */
+
+.ferramentas{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:30px;
+}
+
+.ferramentas label{
+
+    font-weight:bold;
+
+    color:#444;
+}
+
+input[type="color"]{
+
+    width:70px;
+    height:50px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:none;
+}
+
+
+/* BOTÃO */
+
+button{
+
+    background:#FFD166;
+
+    border:none;
+
+    padding:14px 24px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    background:#ffcb47;
+}
+
+
+/* ÁREA DO CANVAS */
+
+.canvas-box{
+
+    background:#f8f9ff;
+
+    padding:25px;
+
+    border-radius:30px;
+
+    overflow:auto;
+}
+
+
+/* CANVAS */
+
+canvas{
+
+    background:white;
+
+    border:5px dashed #6C63FF;
+
+    border-radius:20px;
+
+    cursor:crosshair;
+
+    max-width:100%;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+
+/* FOOTER */
+
+footer{
+
+    text-align:center;
+
+    color:white;
+
+    padding:20px;
+}
+	</style>
+
+<section class="desenho-area">
+
+    <h1>🎨 Espaço Criativo dos Ursinhos</h1>
+
+    <p>
+        Desenhe, pinte e solte a imaginação!
+    </p>
+
+    <div class="ferramentas">
+
+        <label>
+            Escolha uma cor:
+        </label>
+
+        <input type="color" id="cor">
+
+        <button id="limpar">
+            Limpar desenho
+        </button>
+
+    </div>
+
+    <div class="canvas-box">
+
+        <canvas width="800" height="600"></canvas>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p class="copyright">
+        &copy; Copyright crismgsp 2022
+    </p>
+
+</footer>
 		
