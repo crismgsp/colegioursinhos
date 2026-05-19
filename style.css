@@ -15,7 +15,7 @@ main {
 novo css */
 header{
     background: #7C83D9;
-    padding: 15px 5%;
+    padding: 7px;
 	width: 100%;
 }
 
@@ -149,7 +149,7 @@ nav a:hover{
 .caixa {
 	position: relative;
 	width: 90vw;
-	margin: 0 auto;
+	
 }
 
 .urso {
